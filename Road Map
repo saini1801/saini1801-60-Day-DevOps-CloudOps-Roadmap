@@ -1,0 +1,63 @@
+✅ Your 60-Day DevOps + CloudOps Roadmap (With Progress Tracking)
+
+🧭 Phase 1: AWS Core + CLI + IAM (Days 1–5)
+Day	Topics Covered	Status	Time
+1	EC2 Basics, Key Pair, SSH, Security Group, CLI intro	✅ Done	2–3h
+2	IAM User, Access Key, CLI Config, MFA	✅ Done	2–3h
+3	AWS CLI Profiles, STS, get-caller-identity, Config	✅ Done	2h
+4	S3 Bucket, Permissions, Versioning, CLI	✅ Done	2–3h
+5	IAM Policies, Scoped S3 Access, Bucket Policies	✅ Done	3h
+
+
+🛠️ Phase 2: Terraform Core (Days 6–14)
+Day	Topics	Status	Time
+6	Terraform Intro, Install, EC2 via main.tf	✅ Done	2–3h
+7	Terraform: EC2 + variables.tf + outputs.tf	✅ Done	1.5h
+8	Terraform: Add S3 Bucket + Tags + Output	🔜 Kal	1.5h
+9	EC2 with User-Data Script (Install Apache via TF)	🔜	2h
+10	Add terraform.tfvars, Input Variables, Format	🔜	1.5h
+11	Terraform State: .tfstate, Locking, Remote Backend	🔜	2h
+12	Workspaces + Multiple Env (dev/prod) setup	🔜	2h
+13–14	Mini Project: Full infra (EC2 + S3 + Output + Tags)	🔜 Weekend	4–5h
+
+
+⚙️ Phase 3: Monitoring + Automation (Days 15–24)
+Day	Topics	Status	Time
+15	CloudWatch Logs + Alarms	🔜	2–3h
+16	EC2 log forwarding to CloudWatch	🔜	2h
+17	Intro to Shell Scripting – Basics	🔜	2–3h
+18	Shell Script + Cronjob Setup	🔜	2h
+19–20	Bash Automation Project (Backup + Monitoring)	🔜	4–5h
+21	CloudTrail Setup + Monitoring	🔜	2h
+22–24	Jenkins Intro, Install, CI Job for GitHub project	🔜	4–5h
+
+
+⚙️ Phase 4: CI/CD Pipeline (Days 25–34)
+Day	Topics	Status	Time
+25	Jenkins with GitHub Integration	🔜	2h
+26	Jenkins: Build + Test pipeline	🔜	2–3h
+27	Jenkins: Deploy to EC2	🔜	2–3h
+28–30	Docker Basics + Dockerize App + Jenkins CI for Docker	🔜	4–5h
+31	ECR Push + Pull from EC2	🔜	2–3h
+32–34	CI/CD Pipeline (GitHub → Jenkins → Docker → EC2)	🔜	4–5h
+
+
+☁️ Phase 5: Kubernetes Basics (Days 35–45)
+Day	Topics	Status	Time
+35	Kubernetes Basics + kubectl + minikube	🔜	2–3h
+36	Pods, ReplicaSets, Deployments	🔜	2–3h
+37	Services, Ingress, NodePort, ClusterIP	🔜	2–3h
+38–39	Helm + Charts	🔜	4–5h
+40	EKS Basics + Setup via Console	🔜	2–3h
+41–42	EKS via Terraform	🔜	4–5h
+43–45	Mini Project: Deploy App on EKS (CI + Docker + Helm)	🔜	6–7h
+
+
+☁️ Phase 6: DevOps CloudOps Final Project (Days 46–60)
+Day	Topics	Status	Time
+46–48	Infra as Code: EC2 + RDS + S3 + IAM via Terraform	🔜	6h
+49–51	CI/CD Pipeline with Testing	🔜	6–7h
+52–55	Monitoring with Prometheus + Grafana	🔜	6h
+56–58	Alerting + Auto-remediation script	🔜	4–5h
+59	Resume + GitHub Setup for Projects	🔜	2h
+60	Final Mock Interview + Q&A Practice	🔜	2h
